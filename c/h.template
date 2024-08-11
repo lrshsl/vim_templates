@@ -1,5 +1,5 @@
-#ifndef <<[name]>>_H
-#define <<[name]>>_H
+#ifndef <<[filename]>>_H
+#define <<[filename]>>_H
 
 
 #endif

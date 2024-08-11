@@ -6,7 +6,7 @@
 DOXYFILE_ENCODING      = UTF-8
 PROJECT_NAME           = <<[Project Name]>>
 PROJECT_NUMBER         =
-PROJECT_BRIEF          = "<<[Project Brief Description]>>"
+PROJECT_BRIEF          = ""
 PROJECT_LOGO           =
 PROJECT_ICON           =
 OUTPUT_DIRECTORY       = docs/generated
