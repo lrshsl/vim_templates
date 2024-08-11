@@ -1,0 +1,3 @@
+#include "<<[%:t:r]>>.h"
+
+// vim: foldmethod=marker foldmarker=Section,EndSection

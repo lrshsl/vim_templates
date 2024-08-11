@@ -1,0 +1,24 @@
+# Ignore everything by default
+*
+
+# Only include the following
+!.gitignore
+
+!README.md
+!build.zig
+!Doxyfile
+
+# Include all zig, c or h files in the src directory
+!src/
+!src/**/*.zig
+!src/**/*.c
+!src/**/*.h
+
+# Include everything in the examples/ directory
+!examples/
+!examples/**/*
+
+# Include everything in the docs/ directory except docs/generated/
+!docs/
+!docs/**/*
+docs/generated/

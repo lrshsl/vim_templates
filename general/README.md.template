@@ -1,0 +1,30 @@
+# <<[Title]>>
+
+## List of contents
+
+- [Overview](#overview)
+- [Feature track](#feature-track)
+- [Installation](#installion)
+	- [Binaries](#prebuilt-binaries)
+	- [From source](#build-from-source)
+- [Getting started](#getting-started)
+	- [Docs](docs/)
+	- [API Docs](docs/generated/html/index.html)
+	- [Examples](examples/)
+
+## Overview
+
+## Installation
+### Prebuilt Binaries
+### Build from source
+#### Dependencies
+#### Build and run
+
+## Getting started
+
+> Note: For more information, see the [docs](docs/) and [examples](examples/) folders
+
+## Feature track
+
+- [ ] <<[Some Feature]>>
+

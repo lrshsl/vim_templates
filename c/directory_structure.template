@@ -1,0 +1,10 @@
+docs/
+docs/generated/
+
+src/main.c
+src/include/header.h
+
+Makefile
+Doxyfile
+
+README.md

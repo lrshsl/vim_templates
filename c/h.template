@@ -1,0 +1,6 @@
+#ifndef <<[name]>>_H
+#define <<[name]>>_H
+
+
+#endif
+// vim: foldmethod=marker foldmarker=Section,EndSection
