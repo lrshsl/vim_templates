@@ -2,22 +2,25 @@
 *
 
 # Only include the following
-!.gitignore
+!/.gitignore
 
-!README.md
-!Makefile
-!Doxyfile
+!/README.md
+!/Makefile
+!/Doxyfile
 
 # Include all c and h files in the src directory
-!src/**
-!src/**/*.c
-!src/**/*.h
+!/src/
+!/src/**
+!/src/**/*.c
+!/src/**/*.h
 
 # Include everything in the examples/ directory
-!examples/**
-!examples/**/*
+!/examples/
+!/examples/**
+!/examples/**/*
 
 # Include everything in the docs/ directory except docs/generated/
-!docs/**
-!docs/**/*
-docs/generated/
+!/docs/
+!/docs/**
+!/docs/**/*
+/docs/generated/
