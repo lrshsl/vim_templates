@@ -9,15 +9,15 @@
 !Doxyfile
 
 # Include all c and h files in the src directory
-!src/
+!src/**
 !src/**/*.c
 !src/**/*.h
 
 # Include everything in the examples/ directory
-!examples/
+!examples/**
 !examples/**/*
 
 # Include everything in the docs/ directory except docs/generated/
-!docs/
+!docs/**
 !docs/**/*
 docs/generated/
