@@ -4,7 +4,7 @@ docs/generated/
 src/main.c
 src/include/header.h
 
-Makefile
-Doxyfile
+makefile
+doxyfile
 
 README.md

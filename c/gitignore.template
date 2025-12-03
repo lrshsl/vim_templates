@@ -5,8 +5,8 @@
 !/.gitignore
 
 !/README.md
-!/Makefile
-!/Doxyfile
+!/makefile
+!/doxyfile
 
 # Include all c and h files in the src directory
 !/src/

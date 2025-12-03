@@ -6,7 +6,7 @@
 
 !/README.md
 !/build.zig
-!/Doxyfile
+!/doxyfile
 
 # Include all zig, c or h files in the src directory
 !/src/

@@ -1,9 +1,9 @@
 name = <<[Project Name]>>
 
 # Where to (find | put) stuff
-docdir = docs/generated
 srcdir = src
 builddir = build
+docdir = docs/generated
 
 # Output
 debugbin = $(builddir)/$(name)_debug
@@ -16,9 +16,9 @@ valgrindflags = --leak-check=full
 relflags = -O2 -s
 
 # Don't touch
-csrc = $(wildcard $(srcdir)/**.c)
+csrc := $(shell find $(srcdir) -name '*.c')
 
-# Docs are made with `doxygen Doxyfile`
+# Docs are made with `doxygen doxyfile`
 
 
 ###############################################################################
@@ -53,9 +53,9 @@ check: $(debugbin)
 						valgrind $(valgrindflags) ./$(debugbin)
 
 # Generate documentation
-# > Note: The output directory in the Doxyfile should correspond to $(docdir)
+# > Note: The output directory in the doxyfile should correspond to $(docdir)
 docs:
-	doxygen Doxyfile
+	doxygen doxyfile
 
 # Since cleanup removes the $(builddir)
 $(builddir):
