@@ -2,4 +2,4 @@
 #define <<[filename]>>_H
 
 
-#endif
+#endif // <<[filename]>>_H

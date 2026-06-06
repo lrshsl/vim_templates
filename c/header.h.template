@@ -33,18 +33,18 @@
 
 #define loop for (;;)
 
-/* foreach macro
- *
- * Not just for convenience, but also to minimize surface area for errors
- * (straight-forward for loops can't have typos anymore).
- *
- * for (int x = 0; x < 10; ++x) {}
- *
- * becomes:
- *
- * foreach(x, 0, 10) {}
- *
- */
+/// foreach macro
+///
+/// Not just for convenience, but also to minimize surface area for errors
+/// (straight-forward for loops can't have typos anymore).
+///
+/// for (int x = 0; x < 10; ++x) {}
+///
+/// becomes:
+///
+/// foreach(x, 0, 10) {}
+///
+///
 #define foreach(x, min, max) for (int(x) = (min); ((x) < (max)); (++(x)))
 
 #endif

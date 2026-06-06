@@ -45,3 +45,4 @@ WhitespaceSensitiveMacros:
   - BOOST_PP_STRINGIZE
   - STRINGIZE
 
+
